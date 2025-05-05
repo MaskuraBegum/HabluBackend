@@ -1,9 +1,9 @@
-// routes/jobRoute.js
-
 const express = require('express');
 const router = express.Router();
 const { matchJobs } = require('../controllers/jobContollers');
+const { importJobs } = require('../controllers/importController');
 
-router.get('/match', matchJobs);
+router.post('/import-jobs', importJobs);   // ✅ New route to insert all jobs
+router.get('/match', matchJobs);     // You can keep match logic for response only
 
 module.exports = router;

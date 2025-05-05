@@ -4,12 +4,10 @@ const matchJobs = (req, res) => {
   const skills = req.query.skills ? req.query.skills.split(',') : [];
   const location = req.query.location || '';
 
-  // If no filters, return all jobs
   if (skills.length === 0 && location === '') {
     return res.json(jobs);
   }
 
-  // Otherwise, filter
   const matchedJobs = jobs
     .filter(job => job.location.toLowerCase() === location.toLowerCase())
     .map(job => {
