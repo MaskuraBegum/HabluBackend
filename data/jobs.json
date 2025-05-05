@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "TechNova",
+      "skillsRequired": ["HTML", "CSS", "JavaScript", "React"],
+      "location": "Dhaka",
+      "link": "https://example.com/apply-1"
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "company": "CodeNest",
+      "skillsRequired": ["Node.js", "MongoDB", "Express"],
+      "location": "Chittagong",
+      "link": "https://example.com/apply-2"
+    },
+    {
+      "id": 3,
+      "title": "Full Stack Intern",
+      "company": "DevLaunch",
+      "skillsRequired": ["HTML", "CSS", "JavaScript", "Node.js", "React"],
+      "location": "Dhaka",
+      "link": "https://example.com/apply-3"
+    }
+  ]
+  
