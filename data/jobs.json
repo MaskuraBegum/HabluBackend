@@ -25,6 +25,42 @@
       "location": "Dhaka",
       "salary": "70000",
       "link": "https://example.com/apply-3"
+    },
+    {
+      "id": 4,
+      "title": "Frontend Developer",
+      "company": "Tech Innovators",
+      "skillsRequired": ["HTML", "CSS", "JavaScript", "React"],
+      "location": "Chittagong",
+      "salary": "60000",
+      "link": "https://example.com/apply-1"
+    },
+    {
+      "id": 5,
+      "title": "Backend Developer",
+      "company": "CodeCrafters",
+      "skillsRequired": ["Node.js", "Express", "MongoDB", "Python"],
+      "location": "Sylhet",
+      "salary": "75000",
+      "link": "https://example.com/apply-2"
+    },
+    {
+      "id": 6,
+      "title": "Data Scientist",
+      "company": "DataSage",
+      "skillsRequired": ["Python", "R", "SQL", "Machine Learning"],
+      "location": "Dhaka",
+      "salary": "90000",
+      "link": "https://example.com/apply-4"
+    },
+    {
+      "id": 7,
+      "title": "Mobile App Developer",
+      "company": "AppWorks",
+      "skillsRequired": ["Flutter", "Dart", "Firebase", "JavaScript"],
+      "location": "Rajshahi",
+      "salary": "65000",
+      "link": "https://example.com/apply-5"
     }
   ]
   
